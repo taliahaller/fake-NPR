@@ -1,0 +1,52 @@
+* {
+  font-family: serif;
+  line-height: 1.2em;
+}
+
+
+body {
+  background-image: url("./../img/bg_stars.gif");
+  background-repeat: repeat;
+}
+
+.rowNot {
+  border-bottom: 5px solid lightgray;
+  /* float: top; */
+  height: 74.5px;
+}
+
+.logoHeader {
+  float: left;
+  margin: 0px 15px 22px 15px;
+}
+
+.header1 {
+  display: inline;
+  border-left: 5px solid lightgray;
+  height: 74px;
+  float:left;
+}
+
+midBlock {
+  display: block;
+  margin: 4em 40px 90px 40px;
+}
+
+center {
+  display: block;
+  text-align: center;
+}
+
+center img {
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 24px;
+  color: red;
+}
+
+p {
+  color: yellow;
+  font-size: 13px;
+}
