@@ -3,7 +3,6 @@
   line-height: 1.2em;
 }
 
-
 body {
   background-image: url("./../img/bg_stars.gif");
   background-repeat: repeat;
@@ -11,17 +10,28 @@ body {
 
 /* Index */
 
-.row {
+.main {
   margin-top: 200px;
-  display: inline-block;
-  float:
+  display: block;
+  text-align: center;
+}
+
+.rowFirst, .rowSecond, .rowThird {
+display: block;
+margin: auto;
+width: 510px;
+padding-left: 10px;
 }
 
 .column {
   float: left;
-  border: solid white 1px;
+  /* border: solid white 1px; */
   width: 120px;
   height: 120px;
+}
+
+.thirdColumn {
+  width: 100px;
 }
 
 /* First Column */
@@ -30,9 +40,9 @@ body {
   position: relative;
   }
 
-  #pressBox {
-    margin-top: 60px;
-  }
+#pressBox {
+  margin-top: 60px;
+}
 
 #jamCentral {
   margin: 20px 0 0 30px;
@@ -48,8 +58,72 @@ body {
 
 /* Second Column */
 
+#lineUp {
+  margin: 40px 0 0 -120px;
+}
 
+#jamLogo {
+  margin-left: -35px;
+}
 
+#jump {
+  margin: 35px -70px 0 0;
+}
+
+#junior {
+  margin: -10px 0 0 -100px;
+}
+
+#souvenirs {
+  margin: 0 0 -170px -100px;
+}
+
+#sitemap {
+  margin: 0 0 -250px -50px;
+}
+
+#behind {
+  margin: 0 0 -200px -30px;
+}
+
+p {
+  color: yellow;
+  font-size: 13px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+}
+
+ul {
+  margin-top: 500px;
+}
+
+a {
+  color: salmon;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+.left {
+  float: left;
+  padding-left: 25px;
+}
+
+.right {
+  float: right;
+  padding-left: 28px;
+}
+
+#copyright {
+  clear: both;
+  margin-top: 50px;
+  color: red;
+
+}
 
 /* Jam Central */
 
@@ -88,9 +162,4 @@ center img {
 h2 {
   font-size: 24px;
   color: red;
-}
-
-p {
-  color: yellow;
-  font-size: 13px;
 }
