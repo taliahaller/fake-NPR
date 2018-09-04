@@ -1,165 +1,58 @@
-* {
-  font-family: serif;
-  line-height: 1.2em;
+#logo {
+  align-self: bottom;
 }
 
-body {
-  background-image: url("./../img/bg_stars.gif");
-  background-repeat: repeat;
-}
-
-/* Index */
-
-.main {
-  margin-top: 200px;
-  display: block;
-  text-align: center;
-}
-
-.rowFirst, .rowSecond, .rowThird {
-display: block;
-margin: auto;
-width: 510px;
-padding-left: 10px;
-}
-
-.column {
-  float: left;
-  /* border: solid white 1px; */
+#instalogo {
   width: 120px;
-  height: 120px;
 }
 
-.thirdColumn {
-  width: 100px;
+#cameraIcon {
+  vertical-align: bottom;
 }
 
-/* First Column */
 
-.firstColumn {
-  position: relative;
-  }
-
-#pressBox {
-  margin-top: 60px;
-}
-
-#jamCentral {
-  margin: 20px 0 0 30px;
-}
-
-#planetBBall {
-  margin-left: 10px;
-}
-
-#lunarTunes {
-  margin-top: 30px;
-}
-
-/* Second Column */
-
-#lineUp {
-  margin: 40px 0 0 -120px;
-}
-
-#jamLogo {
-  margin-left: -35px;
-}
-
-#jump {
-  margin: 35px -70px 0 0;
-}
-
-#junior {
-  margin: -10px 0 0 -100px;
-}
-
-#souvenirs {
-  margin: 0 0 -170px -100px;
-}
-
-#sitemap {
-  margin: 0 0 -250px -50px;
-}
-
-#behind {
-  margin: 0 0 -200px -30px;
+.logoGroup {
+  padding-right: 10px;
+  vertical-align: bottom;
 }
 
 p {
-  color: yellow;
-  font-size: 13px;
-}
-
-footer {
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 40%;
-}
-
-ul {
-  margin-top: 500px;
-}
-
-a {
-  color: salmon;
-  text-decoration: underline;
-  font-size: 11px;
-}
-
-.left {
-  float: left;
-  padding-left: 25px;
-}
-
-.right {
-  float: right;
-  padding-left: 28px;
-}
-
-#copyright {
-  clear: both;
-  margin-top: 50px;
-  color: red;
-
-}
-
-/* Jam Central */
-
-.rowNot {
-  border-bottom: 5px solid lightgray;
-  /* float: top; */
-  height: 74.5px;
-}
-
-.logoHeader {
-  float: left;
-  margin: 0px 15px 22px 15px;
-}
-
-.header1 {
   display: inline;
-  border-left: 5px solid lightgray;
-  height: 74px;
-  float:left;
+  font-size: 35px;
+  /* align-self: baseline; */
 }
 
-midBlock {
-  display: block;
-  margin: 4em 40px 90px 40px;
+
+
+#searchContainer {
+  width: 200px;
+/* margin: 0 auto; */
+  position: relative;
+  align-self: center;
 }
 
-center {
-  display: block;
-  text-align: center;
+#searchX {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: -23px;
+  color: darkgray;
 }
 
-center img {
-  margin-bottom: 25px;
+#searchX:hover {
+  color: lightgray;
 }
 
-h2 {
-  font-size: 24px;
-  color: red;
+.header-content {
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  margin: auto;
+  /* vertical-align: baseline; */
+}
+header {
+  border-bottom: .5px solid lightgray;
+
 }
