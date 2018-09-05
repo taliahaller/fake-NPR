@@ -4,41 +4,64 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/output.css" type="text/css">
     <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-    <title>Instagram Desktop Homepage</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+    <title>NPR Homepage</title>
   </head>
   <body>
-    <header>
-      <div class="header-content">
-        <div id="logo">
-          <i class="fab fa-instagram fa-3x logoGroup" id="cameraIcon"></i>
-          <p class="logoGroup">|</p>
-          <img src="img/instagram.png" alt="instalogo" class="logoGroup" id="instalogo"></img>
+
+
+    <header class="flex">
+      <div class="headerContainer flex">
+        <div class="container">
+          <div class="container" id="logoContainer">
+            <img src="img/logo.png">
+            <ul id="icons" class="flex">
+              <li><i class="fas fa-heart"></i>set station</li>
+              <li><i class="fas fa-shopping-bag"></i>npr shop</li>
+              <li><i class="fas fa-user"></i>sign in</li>
+              <li><img src="img/search.png"></li>
+            </ul>
+          </div>
+          <div class="container">
+            <ul id="navBar" class="flex">
+              <li>news</li>
+              <li>arts & life</li>
+              <li>music</li>
+              <li>topics</li>
+              <li>programs & podcasts</li>
+            </ul>
+          </div>
         </div>
-        <div id="searchContainer">
-          <input type="search" id="inputSearch" placeholder="Search" class="form-control col-3">
-          <i class="far fa-times-circle" id="searchX"></i>
-        </input>
-        </div>
-        <div id="icons">
-          <img src="img/icons.png" alt="">
+        <div id="sidePlayer" class="flex column">
+          <div id="player-text" class="flex">
+            <i class="fas fa-map-marker-alt"></i>
+            <div id="picker" class="flex column">
+              <p id="pick">Pick Your NPR Station</p>
+              <p id="stations">There are at least two stations nearby</p>
+          </div>
+          </div>
+          <div class="flex">
+            <ul id="player-buttons" class="flex">
+              <li><button type="button" name="button">Newscast</button></li>
+              <li><button id="border-button" type="button" name="button">Live Radio</button></li>
+              <li><button type="button" name="button">Shows</button></li>
+            </ul>
+          </div>
         </div>
       </div>
-
     </header>
 
-
-
-
-
-
-
+    <div class="nprBody flex">
+      <div class="rectangleContent">
+      </div>
+      <div class="adSpace">        
+      </div>
+    </div>
   </body>
 </html>

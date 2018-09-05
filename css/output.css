@@ -1,0 +1,18 @@
+li {
+  color: #4D84C4;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  background-color: white;
+  color: pink;
+}
+
+#sidePlayer {
+  width: 300px;
+  height: 98px;
+  background-color: gray;
+}
+
+/*# sourceMappingURL=output.css.map */

@@ -1,0 +1,141 @@
+$NPRblue: #4D84C4;
+$NPRdarkBlue: #2C63AE;
+$NPRgrey: #F5F5F5;
+$buttonBorderGrey: #E0E0E0;
+$NPRFont1: 'Raleway', sans-serif;
+$NPRFont2: 'Montserrat', sans-serif;
+
+* {
+  font-family: $NPRFont2;
+}
+
+body {
+    background-color: $NPRgrey;
+}
+
+header {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: $NPRblue;
+}
+
+i {
+  margin: 0 5px;
+}
+
+button {
+  background-image: linear-gradient(white, $NPRgrey);
+  border: none;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100px;
+  height: 43px;
+  font-size: 1.3rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerContainer {
+    margin: auto;
+    width: 1000px;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  margin-top: 7px;
+  margin-right: 15px;
+  // background-color: blue;
+}
+
+.nprBody {
+  overflow-x: visible;
+  width: 1300px;
+  max-width: 100%;
+  min-width: 768px;
+  margin: 0 auto;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.rectangleContent {
+  height: 120px;
+  max-width: 700px;
+  width: 50%;
+  background-color: white;
+}
+
+.adSpace {
+  height: 500px;
+  width: 300px;
+  background-color: $NPRblue;
+  margin-left: 20px;
+}
+
+#icons {
+  float: right;
+  li {
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: .9em;
+    align-self: baseline;
+    color: $NPRdarkBlue;
+  }
+}
+
+#sidePlayer {
+  width: 300px;
+  height: 98px;
+  // margin:
+  background-color: $NPRgrey;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  i {
+    font-size: 3rem;
+    padding: 0 10px;
+    color: $NPRblue;
+  }
+  p {
+    line-height: 0.5em;
+  }
+  #stations {
+    font-size: 1rem;
+  }
+}
+
+#navBar li {
+  margin-top: 10px;
+  margin-bottom: 18px;
+  padding-right: 30px;
+  font-size: 1.2em;
+}
+
+#player-text {
+  align-items: center;
+}
+
+#picker {
+  padding: 25px 0 15px 0;
+}
+
+#border-button {
+  border-right: 1px solid $buttonBorderGrey;
+  border-left:  1px solid $buttonBorderGrey;
+}
